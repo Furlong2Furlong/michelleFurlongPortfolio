@@ -1,0 +1,27 @@
+.cv-container {
+  padding: 20px;
+}
+
+.cv-section {
+  margin-bottom: 20px;
+}
+
+.cv-section h1,
+.cv-section h2,
+.cv-section h3,
+.cv-section p {
+  margin: 10px 0;
+  text-align: left; /* Align headings to the left */
+}
+
+.cv-section ul {
+  padding-left: 20px; /* Add padding to the left of the list */
+  list-style-type: disc; /* Show bullets for the list items */
+  margin: 0; /* Remove default margin */
+  text-align: left; /* Align list text to the left */
+}
+
+.cv-section li {
+  margin-bottom: 5px; /* Add space between list items */
+  text-decoration: none; /* Remove text decoration (if applicable) */
+}

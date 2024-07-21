@@ -1,0 +1,20 @@
+/* MainContentLayout.css */
+.main-content-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add space between header and content body */
+}
+
+.main-content-header {
+  text-align: center;
+}
+
+.content-body {
+  display: flex;
+  gap: 20px; /* Add space between columns */
+}
+
+.text-column,
+.image-column {
+  flex: 1; /* Make columns equal width */
+}
