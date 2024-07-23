@@ -137,3 +137,20 @@ body {
 .active-link {
   color: pink;
 }
+
+.text-link {
+  color: darkgreen;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.text-container {
+  column-count: 2;
+  column-gap: 20px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.text-container p {
+  margin: 0;
+}

@@ -5,7 +5,7 @@ export default function Content() {
         <h1>Title</h1>
       </div>
       <div>
-        <p>Content</p>
+        <p>Content of here </p>
       </div>
     </div>
   );

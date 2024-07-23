@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Press from "./pages/Press";
 import "./App.css";
 import PlayingBody from "./subpages/PlayingBody";
+import InterPlay from "./subpages/InterPlay";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/Press" element={<Press />} />
                 <Route path="/About" element={<About />} />
                 <Route path="/PlayingBody" element={<PlayingBody />} />
+                <Route path="/inter-play" element={<InterPlay />} />
                 {/* <Route path="hammer" element={<Hammer />} />
                 <Route path="inter-play" element={<InterPlay />} />
                 <Route

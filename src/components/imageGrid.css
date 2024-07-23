@@ -1,0 +1,18 @@
+/* ImageGrid.css */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.image-grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* .image-grid-item img:hover {
+  transform: scale(1.05);
+} */
